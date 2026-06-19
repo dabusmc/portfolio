@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+</header>
+
+<main>
+    <div id="projectGrid" class="project-grid"></div>
+</main>
+
+<div id="modal" class="modal hidden">
+    <div class="modal-content">
+
+        <button id="closeModal" class="close-button">
+            x
+        </button>
+
+        <img id="modalImage" class="modal-image">
+
+        <h2 id="modalTitle"></h2>
+
+        <div class="modal-meta">
+            <span id="modalDate"></span>
+            <span id="modalStatus"></span>
+        </div>
+
+        <p id="modalDescription"></p>
+
+        <div id="modalTags" class="tags"></div>
+
+        <div id="modalLinks" class="links"></div>
+
+    </div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

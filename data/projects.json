@@ -1,0 +1,31 @@
+{
+    "projects": [
+        {
+            "id": "portfolio_website",
+            "priority": 9,
+            "title": "This Website",
+            "date": "2026-06-19",
+            "status": "Prototype",
+            "image": "images/loading.png",
+            "summary": "A portfolio website.",
+            "description": "This is just a temporary description to be filled out later. Here's some Lorem Ipsum: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat dui in orci aliquam posuere. Praesent semper blandit posuere. Nullam vitae congue nisi. Nulla lacinia turpis fringilla elementum aliquet. Nullam sapien urna, accumsan at urna viverra, dignissim lobortis augue. Aliquam finibus ullamcorper ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum auctor, odio iaculis tristique consequat, enim leo egestas metus, sit amet euismod nulla nulla non velit. Duis non turpis quis sapien faucibus semper a et eros. Sed placerat ante non turpis imperdiet, congue placerat purus luctus. Nam in ultrices urna. Aliquam sed dui ut sapien ullamcorper rhoncus eget et tortor. Mauris ultrices efficitur libero, ut fermentum lorem imperdiet venenatis.",
+            "tags": ["Webdev", "JavaScript"],
+            "links": {}
+        },
+        {
+            "id": "film_tracker",
+            "priority": 10,
+            "title": "Film Tracker",
+            "date": "2026-05-21",
+            "status": "Completed",
+            "image": "images/loading.png",
+            "summary": "Movie collection tracker powered by Google Sheets and TMDB.",
+            "description": "A simple website for tracking what films I have collected and what I have yet to collect. It pulls its data from a Google Sheet making use of the Sheets API. It also pulls information from The Movie Database (TMDB) in order to display a movie's poster, tags, runtime and release year. It also has searching functionality as well as options for changing the display order of the movies.",
+            "tags": ["Webdev", "JavaScript"],
+            "links": {
+                "source": "https://github.com/dabusmc/media",
+                "download": "https://dabusmc.github.io/media/"
+            }
+        }
+    ]
+}
