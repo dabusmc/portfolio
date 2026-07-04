@@ -5,11 +5,11 @@
             "priority": 9,
             "title": "This Website",
             "date": "2026-06-19",
-            "status": "Prototype",
+            "status": "In Progress",
             "image": "images/loading.png",
-            "summary": "A portfolio website.",
-            "description": "This is just a temporary description to be filled out later. Here's some Lorem Ipsum: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat dui in orci aliquam posuere. Praesent semper blandit posuere. Nullam vitae congue nisi. Nulla lacinia turpis fringilla elementum aliquet. Nullam sapien urna, accumsan at urna viverra, dignissim lobortis augue. Aliquam finibus ullamcorper ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum auctor, odio iaculis tristique consequat, enim leo egestas metus, sit amet euismod nulla nulla non velit. Duis non turpis quis sapien faucibus semper a et eros. Sed placerat ante non turpis imperdiet, congue placerat purus luctus. Nam in ultrices urna. Aliquam sed dui ut sapien ullamcorper rhoncus eget et tortor. Mauris ultrices efficitur libero, ut fermentum lorem imperdiet venenatis.",
-            "tags": ["Webdev", "JavaScript"],
+            "summary": "A responsive portfolio website showcasing my projects and experience.",
+            "description": "A portfolio website built to showcase my software development projects, technical skills and experience in a clean and accessible way. Rather than being a static page, the site is driven by a JSON project database, allowing new projects to be added without modifying the site's code. Each project page is generated dynamically and includes screenshots, descriptions, technologies used and links to source code or downloads where available. The website is fully responsive and designed to work well on both desktop and mobile devices. It also serves as a central hub for my programming portfolio.",
+            "tags": ["Webdev", "JavaScript", "HTML", "CSS"],
             "links": {
                 "source": "https://github.com/dabusmc/portfolio"
             }
@@ -31,7 +31,7 @@
         },
         {
             "id": "all_alone",
-            "priority": 8,
+            "priority": 7,
             "title": "All Alone",
             "date": "2025-04-13",
             "status": "Completed",
@@ -41,6 +41,20 @@
             "tags": ["Game", "Game Jam", "Unity"],
             "links": {
                 "download": "https://gamespillstudios.itch.io/all-alone"
+            }
+        },
+        {
+            "id": "modpack_maker",
+            "priority": 8,
+            "title": "Minecraft Modpack Maker",
+            "date": "2023-10-25",
+            "status": "Prototype",
+            "image": "images/loading.png",
+            "summary": "A Java Desktop Tool for making Minecraft Modpacks.",
+            "description": "Minecraft Modpack Maker is a Java desktop application designed to simplify the process of building complex Minecraft modpacks. The project was created to automate and/or simplify many of the repetitive tasks involved in assembling a modpack such as organising mods, generating the required folder structure, handling configs and preparing files for distribution. Although only a prototype, the project explored desktop application development, file management, user interface design and project organisation while also providing an intuitive interface for users who wanted to create modpacks without manually managing dozens of files.",
+            "tags": ["Java", "Desktop", "Minecraft"],
+            "links": {
+                "source": "https://github.com/dabusmc/MMM-Proto"
             }
         }
     ]
