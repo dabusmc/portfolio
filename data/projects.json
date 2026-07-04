@@ -1,17 +1,17 @@
 {
     "projects": [
         {
-            "id": "portfolio_website",
-            "priority": 9,
-            "title": "This Website",
-            "date": "2026-06-19",
-            "status": "In Progress",
-            "image": "images/loading.png",
-            "summary": "A responsive portfolio website showcasing my projects and experience.",
-            "description": "A portfolio website built to showcase my software development projects, technical skills and experience in a clean and accessible way. Rather than being a static page, the site is driven by a JSON project database, allowing new projects to be added without modifying the site's code. Each project page is generated dynamically and includes screenshots, descriptions, technologies used and links to source code or downloads where available. The website is fully responsive and designed to work well on both desktop and mobile devices. It also serves as a central hub for my programming portfolio.",
-            "tags": ["Webdev", "JavaScript", "HTML", "CSS"],
+            "id": "mandelbrot_set",
+            "priority": 20,
+            "title": "Mandelbrot Set",
+            "date": "2022-02-13",
+            "status": "Completed",
+            "image": "images/mandelbrot_set.png",
+            "summary": "An interactive Mandelbrot Set visualiser built with C++ and Qt5.",
+            "description": "A desktop application that generates and renders the Mandelbrot Set using C++ and the Qt5 framework. Users can customise the maximum iteration count to explore how additional iterations reveal increasingly detailed fractal structures. The project served as an introduction to graphical rendering, complex number mathematics and desktop application development, while demonstrating how relatively simple algorithms can produce highly intricate visual results.",
+            "tags": ["C++", "Qt5", "Desktop", "Graphics", "Mathematics"],
             "links": {
-                "source": "https://github.com/dabusmc/portfolio"
+                "source": "https://github.com/dabusmc/Mandelbrot-Set"
             }
         },
         {
@@ -30,6 +30,35 @@
             }
         },
         {
+            "id": "portfolio_website",
+            "priority": 9,
+            "title": "This Website",
+            "date": "2026-06-19",
+            "status": "In Progress",
+            "image": "images/loading.png",
+            "summary": "A responsive portfolio website showcasing my projects and experience.",
+            "description": "A portfolio website built to showcase my software development projects, technical skills and experience in a clean and accessible way. Rather than being a static page, the site is driven by a JSON project database, allowing new projects to be added without modifying the site's code. Each project page is generated dynamically and includes screenshots, descriptions, technologies used and links to source code or downloads where available. The website is fully responsive and designed to work well on both desktop and mobile devices. It also serves as a central hub for my programming portfolio.",
+            "tags": ["Webdev", "JavaScript", "HTML", "CSS"],
+            "links": {
+                "source": "https://github.com/dabusmc/portfolio"
+            }
+        },
+        
+        {
+            "id": "modpack_maker",
+            "priority": 8,
+            "title": "Minecraft Modpack Maker",
+            "date": "2023-10-25",
+            "status": "Prototype",
+            "image": "images/loading.png",
+            "summary": "A Java Desktop Tool for making Minecraft Modpacks.",
+            "description": "Minecraft Modpack Maker is a Java desktop application designed to simplify the process of building complex Minecraft modpacks. The project was created to automate and/or simplify many of the repetitive tasks involved in assembling a modpack such as organising mods, generating the required folder structure, handling configs and preparing files for distribution. Although only a prototype, the project explored desktop application development, file management, user interface design and project organisation while also providing an intuitive interface for users who wanted to create modpacks without manually managing dozens of files.",
+            "tags": ["Java", "Desktop", "Minecraft"],
+            "links": {
+                "source": "https://github.com/dabusmc/MMM-Proto"
+            }
+        },
+        {
             "id": "all_alone",
             "priority": 7,
             "title": "All Alone",
@@ -44,17 +73,17 @@
             }
         },
         {
-            "id": "modpack_maker",
-            "priority": 8,
-            "title": "Minecraft Modpack Maker",
-            "date": "2023-10-25",
-            "status": "Prototype",
+            "id": "mnist_classifier",
+            "priority": 6,
+            "title": "MNIST Classifer",
+            "date": "2021-11-01",
+            "status": "Completed",
             "image": "images/loading.png",
-            "summary": "A Java Desktop Tool for making Minecraft Modpacks.",
-            "description": "Minecraft Modpack Maker is a Java desktop application designed to simplify the process of building complex Minecraft modpacks. The project was created to automate and/or simplify many of the repetitive tasks involved in assembling a modpack such as organising mods, generating the required folder structure, handling configs and preparing files for distribution. Although only a prototype, the project explored desktop application development, file management, user interface design and project organisation while also providing an intuitive interface for users who wanted to create modpacks without manually managing dozens of files.",
-            "tags": ["Java", "Desktop", "Minecraft"],
+            "summary": "A handwritten digit classifier built with Python and PyTorch using the MNIST dataset.",
+            "description": "An educational machine learning project exploring image classification using Python and the PyTorch framework. The application trains a neural network on the MNIST dataset to recognise handwritten digits before evaluating the model against unseen test data. Through the project I gained practical experience with preparing datasets, training neural networks, monitoring model performance and understanding the fundamentals of supervised machine learning using one of the industry's most widely adopted deep learning libraries.",
+            "tags": ["Python", "PyTorch", "Machine Learning", "Neural Networks", "AI"],
             "links": {
-                "source": "https://github.com/dabusmc/MMM-Proto"
+                "source": "https://github.com/dabusmc/MNIST-Classifier"
             }
         }
     ]
