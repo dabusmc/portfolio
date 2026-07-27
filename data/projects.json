@@ -15,6 +15,20 @@
             }
         },
         {
+            "id": "subtitle_studio",
+            "priority": 19,
+            "title": "Subtitle Studio",
+            "date": "2026-07-07",
+            "status": "In Progress",
+            "image": "images/subtitle_studio.png",
+            "summary": "C++ Desktop Tool for Creating and Managing Subtitles for various video formats.",
+            "description": "A desktop tool that allows users to create, edit and manipulate subtitles in the .srt format. It includes video and subtitle importing, as well as allowing users to watch the video with their subtitles enabled. Its interface and general use has been modelled after video-editing software, the key inspirations being Premiere Pro and Davinci Resolve. It will be a powerful tool for creators to give their content proper subtitling.",
+            "tags": ["C++", "Qt5", "Desktop"],
+            "links": {
+                "source": "https://github.com/dabusmc/SubtitleStudio"
+            }
+        },
+        {
             "id": "film_tracker",
             "priority": 10,
             "title": "Film Tracker",
